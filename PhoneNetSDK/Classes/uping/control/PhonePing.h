@@ -26,6 +26,8 @@
 
 - (void)startPingHosts:(NSString *)host packetCount:(int)count;
 
+- (BOOL)settingUHostSocketAddressWithHost:(NSString *)host;
+
 - (void)stopPing;
 - (BOOL)isPing;
 @end
